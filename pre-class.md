@@ -12,15 +12,37 @@ By completing this pre-class work, you will:
 * **Identify** the two core Pandas structures: Series and DataFrame.  
 * **Recognize** how to import Pandas and Numpy.
 
+## 🎬 Brief intro of Pandas
+
+* **Watch this video:** [Pandas: Your Data Toolbox](https://youtu.be/QnMPKycUW64?si=7JiFGkIo9Tl9pF6k)
+
 ## **💻 Part 1: Environment Setup (15-20 min)**
 
 ### **Prerequisites**
 
+### For Google Colab User
+
+**If you use Google Colab to run the Jupyter notebook, no installation is required.**
+
+### For VS Code User
+
+**Please follow the Installation Instructions below**
+
 Ensure you have Python 3.8+ and Jupyter Notebook/Lab installed.
-
-### **Installation Instructions**
-
 Open your terminal or command prompt and run:
+
+Install the prescribed conda environment before you begin.
+
+```bash
+conda env create -f environment.yml
+```
+
+To start Jupyter Notebook, open your terminal (or anaconda prompt), then activate the conda environment:
+
+```bash
+conda activate pds
+```
+
 
 ```
 pip install pandas numpy
@@ -28,7 +50,7 @@ pip install pandas numpy
 conda install pandas numpy
 ```
 
-### **Verification**
+#### **Verification**
 
 Create a new Jupyter Notebook and run this cell:
 
